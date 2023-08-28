@@ -9,12 +9,20 @@ import product2 from "@/public/images/product2.png";
 import deepId from "@/public/images/deep-id.png";
 import HoverImage from "../HoverImage";
 import { useTranslations } from "next-intl";
+import { useObserve } from "@/app/lib/client";
 
 const ProductIntro: FC = () => {
+  const { dom, isObserved } = useObserve();
+
   const t = useTranslations("Index");
 
   return (
-    <div className="max-w-screen-xl mx-auto min-h-screen flex flex-col md:flex-row justify-center items-center">
+    <div
+      ref={dom}
+      className={`max-w-screen-xl mx-auto min-h-screen flex flex-col md:flex-row justify-center items-center ${
+        isObserved && "animate__animated animate__fadeIn animate__slow"
+      }`}
+    >
       <div className="grow relative w-96 md:w-[60rem] md:flex flex-col-reverse">
         <div className="text-center">
           <div className="text-blue-600 font-semibold md:text-2xl">
@@ -32,7 +40,7 @@ const ProductIntro: FC = () => {
           <div className="text-[16rem] md:text-[24rem] text-blue-100">
             <HiCloud />
           </div>
-          <div className="-mt-8 md:-mt-16 mb-8 font-bold md:text-2xl">
+          <div className="-mt-4 md:-mt-8 mb-8 font-bold md:text-2xl">
             {t("saas")}
           </div>
           <Image className="absolute px-4" src={deepId} alt="Deep-ID" />
