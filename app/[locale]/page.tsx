@@ -2,16 +2,16 @@
 
 import { NextPage } from "next";
 
-import Intro from "@/app/components/home/Intro";
-import Description from "@/app/components/home/Description";
-import ProductIntro from "@/app/components/home/ProductIntro";
+import HomeIntro from "@/app/components/home/HomeIntro";
+import HomeDescription from "@/app/components/home/HomeDescription";
+import HomeProductIntro from "@/app/components/home/HomeProductIntro";
 
 const Home: NextPage = () => {
   return (
     <main>
-      <Intro />
-      <Description />
-      <ProductIntro />
+      <HomeIntro />
+      <HomeDescription />
+      <HomeProductIntro />
     </main>
   );
 };

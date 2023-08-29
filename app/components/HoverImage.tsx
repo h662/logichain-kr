@@ -1,18 +1,22 @@
 import { FC, useState } from "react";
 import Link from "next-intl/link";
 import Image, { StaticImageData } from "next/image";
+import { useTranslations } from "next-intl";
 
 type Prop = {
   name: string;
   image: StaticImageData;
+  href: string;
 };
 
-const HoverImage: FC<Prop> = ({ name, image }) => {
+const HoverImage: FC<Prop> = ({ name, image, href }) => {
   const [isHover, setIsHover] = useState<boolean>(false);
+
+  const t = useTranslations("Index");
 
   return (
     <Link
-      href="/product"
+      href={href}
       className="hover:bg-black hover:bg-opacity-30 duration-500 relative"
       onMouseOver={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
@@ -25,7 +29,7 @@ const HoverImage: FC<Prop> = ({ name, image }) => {
             : "hidden"
         }`}
       >
-        더보기
+        {t("view")}
       </div>
     </Link>
   );

@@ -48,7 +48,7 @@ const Header: FC<Prop> = ({ locale }) => {
             </Link>
             <Link
               className="hover:bg-gray-300 px-2 py-1 rounded-md duration-500 truncate"
-              href="/product"
+              href="/product/mobile"
             >
               {t("productService")}
             </Link>

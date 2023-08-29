@@ -13,6 +13,14 @@
     "productService": "Product/Service",
     "solution1": "Intuitive document identification and identification image transfer",
     "solution2": "Non-face-to-face identification and image transfer",
-    "saas": "Cloud platform based on SaaS"
+    "saas": "Cloud platform based on SaaS",
+    "view": "View",
+    "mobile1": "Easy and accurate identification",
+    "mobile2": "Incident sites requiring rapid site preservation",
+    "mobile3": "A forged identification card that is hard to distinguish with the naked eye",
+    "mobile4": " can solve it",
+    "mobile5": "Use a dedicated lens to take pictures of visible and invisible areas",
+    "mobile6": "Images taken are analyzed with precision through forensic AI",
+    "mobile7": "Use a dedicated application to check for quick identification results"
   }
 }
