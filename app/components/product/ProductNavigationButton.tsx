@@ -9,7 +9,7 @@ const ProductNavigationButton: FC = () => {
     <div className="max-w-screen-xl mx-auto flex items-start gap-2 md:gap-4 text-sm md:text-2xl px-2 md:px-0 md:py-2">
       <Link
         href="/product/mobile"
-        className={`grow px-1 md:px-2 py-2 md:py-4 hover:bg-blue-200 rounded-full text-center ${
+        className={`grow px-1 md:px-2 py-2 md:py-4 hover:bg-blue-200 hover:font-semibold rounded-full text-center ${
           pathname === "/product/mobile" &&
           "text-blue-600 font-semibold bg-blue-200"
         }`}
@@ -18,7 +18,7 @@ const ProductNavigationButton: FC = () => {
       </Link>
       <Link
         href="/product/desktop"
-        className={`grow px-1 md:px-2 py-2 md:py-4 hover:bg-blue-200 rounded-full text-center ${
+        className={`grow px-1 md:px-2 py-2 md:py-4 hover:bg-blue-200 hover:font-semibold rounded-full text-center ${
           pathname === "/product/desktop" &&
           "text-blue-600 font-semibold bg-blue-200"
         }`}
@@ -27,7 +27,7 @@ const ProductNavigationButton: FC = () => {
       </Link>
       <Link
         href="/product/ai"
-        className={`grow px-1 md:px-2 py-2 md:py-4 hover:bg-blue-200 rounded-full text-center ${
+        className={`grow px-1 md:px-2 py-2 md:py-4 hover:bg-blue-200 hover:font-semibold rounded-full text-center ${
           pathname === "/product/ai" &&
           "text-blue-600 font-semibold bg-blue-200"
         }`}

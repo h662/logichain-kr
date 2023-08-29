@@ -33,7 +33,7 @@ const Header: FC<Prop> = ({ locale }) => {
   }, []);
 
   return (
-    <header className="bg-white bg-opacity-70 fixed top-0 left-0 w-full shadow-md shadow-blue-100 z-50">
+    <header className="bg-white bg-opacity-70 fixed top-0 left-0 w-full shadow-md shadow-gray-100 z-50">
       <div className="max-w-screen-xl mx-auto px-2 py-4 flex justify-between items-center">
         <Link href="/">
           <Image className="w-32 md:w-48" src={logichain} alt="Logichain" />
