@@ -4,9 +4,6 @@ import { usePathname } from "next-intl/client";
 
 const ProductNavigationButton: FC = () => {
   const pathname = usePathname();
-  useEffect(() => {
-    console.log(pathname);
-  }, []);
 
   return (
     <div className="max-w-screen-xl mx-auto flex items-start gap-2 md:gap-4 text-sm md:text-2xl px-2 md:px-0 md:py-2">

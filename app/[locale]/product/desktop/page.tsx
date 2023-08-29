@@ -8,7 +8,6 @@ import { useObserve } from "@/app/lib/client";
 import BackgroundImage from "@/app/components/BackgroundImage";
 import ProductNavigationButton from "@/app/components/product/ProductNavigationButton";
 import background3 from "@/public/images/background3.png";
-import product1 from "@/public/images/product1.png";
 import product3 from "@/public/images/product3.png";
 import DeepIdAi from "@/app/components/DeepIdAi";
 import product2 from "@/public/images/product2.png";
