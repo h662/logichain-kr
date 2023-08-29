@@ -39,7 +39,7 @@ const Mobile: FC = () => {
         <div className="bg-white w-[100vw] left-0 min-h-screen">
           <ProductNavigationButton />
           <div className="max-w-screen-xl mx-auto">
-            <div className="mt-4 mx-2 md:mt-16 md:mx-4 text-2xl md:text-6xl font-medium">
+            <div className="mt-4 mx-2 md:mt-16 md:mx-4 text-base md:text-4xl font-medium">
               {t("mobile1")}, <span className="text-blue-600">DeepID</span>{" "}
               Mobile
             </div>

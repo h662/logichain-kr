@@ -4,10 +4,10 @@ import { FC } from "react";
 
 import product1 from "@/public/images/product1.png";
 import product2 from "@/public/images/product2.png";
-import HoverImage from "../HoverImage";
+import HoverImage from "@/app/components/HoverImage";
 import { useTranslations } from "next-intl";
 import { useObserve } from "@/app/lib/client";
-import DeepIdAi from "../DeepIdAi";
+import DeepIdAi from "@/app/components/DeepIdAi";
 
 const HomeProductIntro: FC = () => {
   const { dom, isObserved } = useObserve();

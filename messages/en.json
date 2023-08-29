@@ -18,9 +18,15 @@
     "mobile1": "Easy and accurate identification",
     "mobile2": "Incident sites requiring rapid site preservation",
     "mobile3": "A forged identification card that is hard to distinguish with the naked eye",
-    "mobile4": " can solve it",
+    "mobile4": "Mobile can solve it",
     "mobile5": "Use a dedicated lens to take pictures of visible and invisible areas",
     "mobile6": "Images taken are analyzed with precision through forensic AI",
-    "mobile7": "Use a dedicated application to check for quick identification results"
+    "mobile7": "Use a dedicated application to check for quick identification results",
+    "desktop1": "Even non-experts can easily identify areas that are difficult to evaluate with the naked eye",
+    "desktop2": "A counterfeit bill that is hard to identify with the naked eye",
+    "desktop3": "Authenticity of the seal signature, etc. of an official document",
+    "desktop4": "Desktop can evaluate",
+    "desktop5": "Ultra-precise camera/LCD to determine invisible areas",
+    "desktop6": "Enables enhanced signature verification through deep learning AI analysis"
   }
 }
