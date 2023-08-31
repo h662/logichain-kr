@@ -41,7 +41,7 @@ const HomeProductIntro: FC = () => {
             className="bg-blue-200 px-4 md:px-8 py-2 md:py-4 md:text-2xl mb-4 rounded-xl hover:bg-blue-400 font-semibold"
             href="/product/ai"
           >
-            더보기
+            {t("view")}
           </Link>
         </div>
         <div className="bg-blue-600 w-full rounded-t-2xl md:rounded-none text-center text-white py-2 md:p-4 md:text-2xl flex items-center justify-center">
